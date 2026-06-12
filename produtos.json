@@ -1,0 +1,104 @@
+{
+  "celulares": [
+    {
+      "id": 1,
+      "marca": "Samsung",
+      "modelo": "Galaxy S24",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Preto",
+      "preco": 4299.90,
+      "status": "Novo"
+    },
+    {
+      "id": 2,
+      "marca": "Apple",
+      "modelo": "iPhone 15",
+      "armazenamento": "128GB",
+      "memoria_ram": "6GB",
+      "cor": "Azul",
+      "preco": 5299.90,
+      "status": "Novo"
+    },
+    {
+      "id": 3,
+      "marca": "Motorola",
+      "modelo": "Edge 50 Fusion",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Verde",
+      "preco": 2499.90,
+      "status": "Novo"
+    },
+    {
+      "id": 4,
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 13 Pro",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Roxo",
+      "preco": 1999.90,
+      "status": "Novo"
+    },
+    {
+      "id": 5,
+      "marca": "Samsung",
+      "modelo": "Galaxy A55",
+      "armazenamento": "128GB",
+      "memoria_ram": "8GB",
+      "cor": "Azul Escuro",
+      "preco": 2199.90,
+      "status": "Novo"
+    },
+    {
+      "id": 6,
+      "marca": "Apple",
+      "modelo": "iPhone 16",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Branco",
+      "preco": 6499.90,
+      "status": "Novo"
+    },
+    {
+      "id": 7,
+      "marca": "Samsung",
+      "modelo": "Galaxy S25",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Titânio Cinza",
+      "preco": 6999.90,
+      "status": "Novo"
+    },
+    {
+      "id": 8,
+      "marca": "Motorola",
+      "modelo": "Moto G85",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Grafite",
+      "preco": 1899.90,
+      "status": "Novo"
+    },
+    {
+      "id": 9,
+      "marca": "Xiaomi",
+      "modelo": "Poco X7 Pro",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Preto",
+      "preco": 2799.90,
+      "status": "Novo"
+    },
+    {
+      "id": 10,
+      "marca": "Realme",
+      "modelo": "Realme 14 Pro",
+      "armazenamento": "256GB",
+      "memoria_ram": "12GB",
+      "cor": "Prata",
+      "preco": 2399.90,
+      "status": "Novo"
+    }
+  ]
+}
