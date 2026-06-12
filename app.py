@@ -198,11 +198,22 @@ def formatar_produtos_para_prompt(produtos):
     return texto
 
 # ==================================================
-# ROTA PRINCIPAL
+# ROTAS - CORRIGIDAS!
 # ==================================================
 
-@app.route("/chat", methods=["POST"])
-def chat():
+# Rota GET para verificar status (mantida)
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "online",
+        "assistant": "BINHO IA",
+        "produtos_carregados": len(PRODUTOS),
+        "arquivo_json": PRODUTOS_PATH
+    })
+
+# Rota POST na RAIZ (é o que seu front-end usa!)
+@app.route("/", methods=["POST"])
+def chat_root():
     try:
         data = request.get_json(silent=True)
         if not data:
@@ -271,7 +282,7 @@ RESPOSTA (direta, sem saudação):"""
         if not resposta_texto:
             return jsonify({"success": False, "message": "A IA não retornou uma resposta válida. Tente novamente."}), 502
 
-        # Pós-processamento: remove saudções genéricas no início da resposta
+        # Pós-processamento: remove saudações genéricas no início da resposta
         import re as _re
         saudacoes_padrao = [
             r'^(olá|ola|oi|hey|e aí|e ai)[,!]?\s*',
@@ -293,19 +304,12 @@ RESPOSTA (direta, sem saudação):"""
         print(f"❌ Erro: {str(error)}")
         return jsonify({"success": False, "error": str(error)}), 500
 
-# ==================================================
-# ROTAS AUXILIARES
-# ==================================================
+# Rota /chat também funciona (para compatibilidade)
+@app.route("/chat", methods=["POST"])
+def chat_alt():
+    return chat_root()
 
-@app.route("/", methods=["GET"])
-def home():
-    return jsonify({
-        "status": "online",
-        "assistant": "BINHO IA",
-        "produtos_carregados": len(PRODUTOS),
-        "arquivo_json": PRODUTOS_PATH
-    })
-
+# Rota para listar produtos (útil para debug)
 @app.route("/produtos", methods=["GET"])
 def listar_produtos():
     return jsonify({
@@ -325,6 +329,11 @@ if __name__ == "__main__":
     print(f"📦 Arquivo JSON: {PRODUTOS_PATH}")
     print(f"📊 Produtos: {len(PRODUTOS)}")
     print("🌐 Servidor: https://chat-bot-back-1.onrender.com")
+    print("📡 Rotas disponíveis:")
+    print("   GET  /          - Status do servidor")
+    print("   POST /          - Chat (principal)")
+    print("   POST /chat      - Chat (alternativo)")
+    print("   GET  /produtos  - Listar produtos")
     print("="*60 + "\n")
     
     DEBUG_MODE = os.getenv("FLASK_DEBUG", "false").lower() == "true"
