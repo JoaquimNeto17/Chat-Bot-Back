@@ -324,7 +324,7 @@ if __name__ == "__main__":
     print(f"📂 Pasta do app: {BACKEND_DIR}")
     print(f"📦 Arquivo JSON: {PRODUTOS_PATH}")
     print(f"📊 Produtos: {len(PRODUTOS)}")
-    print("🌐 Servidor: http://localhost:5000")
+    print("🌐 Servidor: https://chat-bot-back-1.onrender.com")
     print("="*60 + "\n")
     
     DEBUG_MODE = os.getenv("FLASK_DEBUG", "false").lower() == "true"
