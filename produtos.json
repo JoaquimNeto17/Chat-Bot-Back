@@ -99,6 +99,206 @@
       "cor": "Prata",
       "preco": 2399.90,
       "status": "Novo"
+    },
+    {
+      "id": 11,
+      "marca": "Apple",
+      "modelo": "iPhone 13",
+      "armazenamento": "128GB",
+      "memoria_ram": "4GB",
+      "cor": "Estelar",
+      "preco": 3599.00,
+      "status": "Novo"
+    },
+    {
+      "id": 12,
+      "marca": "Apple",
+      "modelo": "iPhone 14 Pro Max",
+      "armazenamento": "256GB",
+      "memoria_ram": "6GB",
+      "cor": "Roxo Profundo",
+      "preco": 5899.90,
+      "status": "Seminovo"
+    },
+    {
+      "id": 13,
+      "marca": "Apple",
+      "modelo": "iPhone 15 Pro",
+      "armazenamento": "128GB",
+      "memoria_ram": "8GB",
+      "cor": "Titânio Natural",
+      "preco": 6799.00,
+      "status": "Novo"
+    },
+    {
+      "id": 14,
+      "marca": "Apple",
+      "modelo": "iPhone 16 Pro Max",
+      "armazenamento": "512GB",
+      "memoria_ram": "8GB",
+      "cor": "Titânio Deserto",
+      "preco": 9499.90,
+      "status": "Novo"
+    },
+    {
+      "id": 15,
+      "marca": "Samsung",
+      "modelo": "Galaxy S24 Ultra",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Titânio Violeta",
+      "preco": 6299.00,
+      "status": "Novo"
+    },
+    {
+      "id": 16,
+      "marca": "Samsung",
+      "modelo": "Galaxy S23 FE",
+      "armazenamento": "128GB",
+      "memoria_ram": "8GB",
+      "cor": "Grafite",
+      "preco": 2699.90,
+      "status": "Novo"
+    },
+    {
+      "id": 17,
+      "marca": "Samsung",
+      "modelo": "Galaxy A35",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Rosa",
+      "preco": 1699.00,
+      "status": "Novo"
+    },
+    {
+      "id": 18,
+      "marca": "Samsung",
+      "modelo": "Galaxy A15 5G",
+      "armazenamento": "128GB",
+      "memoria_ram": "4GB",
+      "cor": "Azul Claro",
+      "preco": 999.00,
+      "status": "Novo"
+    },
+    {
+      "id": 19,
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Flip 6",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Verde Menta",
+      "preco": 5499.90,
+      "status": "Novo"
+    },
+    {
+      "id": 20,
+      "marca": "Samsung",
+      "modelo": "Galaxy Z Fold 6",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Prata",
+      "preco": 9199.00,
+      "status": "Novo"
+    },
+    {
+      "id": 21,
+      "marca": "Motorola",
+      "modelo": "Edge 50 Pro",
+      "armazenamento": "256GB",
+      "memoria_ram": "12GB",
+      "cor": "Preto Eclipse",
+      "preco": 3199.90,
+      "status": "Novo"
+    },
+    {
+      "id": 22,
+      "marca": "Motorola",
+      "modelo": "Edge 50 Ultra",
+      "armazenamento": "512GB",
+      "memoria_ram": "16GB",
+      "cor": "Peach Fuzz",
+      "preco": 4799.00,
+      "status": "Novo"
+    },
+    {
+      "id": 23,
+      "marca": "Motorola",
+      "modelo": "Moto G54 5G",
+      "armazenamento": "128GB",
+      "memoria_ram": "4GB",
+      "cor": "Azul",
+      "preco": 1149.00,
+      "status": "Novo"
+    },
+    {
+      "id": 24,
+      "marca": "Motorola",
+      "modelo": "Moto G34",
+      "armazenamento": "128GB",
+      "memoria_ram": "4GB",
+      "cor": "Verde",
+      "preco": 899.00,
+      "status": "Novo"
+    },
+    {
+      "id": 25,
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 13 4G",
+      "armazenamento": "128GB",
+      "memoria_ram": "6GB",
+      "cor": "Preto",
+      "preco": 1199.90,
+      "status": "Novo"
+    },
+    {
+      "id": 26,
+      "marca": "Xiaomi",
+      "modelo": "Poco F6 Pro",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Branco",
+      "preco": 3699.00,
+      "status": "Novo"
+    },
+    {
+      "id": 27,
+      "marca": "Xiaomi",
+      "modelo": "Xiaomi 14",
+      "armazenamento": "512GB",
+      "memoria_ram": "12GB",
+      "cor": "Verde Jade",
+      "preco": 5199.90,
+      "status": "Novo"
+    },
+    {
+      "id": 28,
+      "marca": "Xiaomi",
+      "modelo": "Redmi 13C",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Azul Marinho",
+      "preco": 949.00,
+      "status": "Novo"
+    },
+    {
+      "id": 29,
+      "marca": "Realme",
+      "modelo": "Realme GT 6",
+      "armazenamento": "512GB",
+      "memoria_ram": "16GB",
+      "cor": "Verde Escuro",
+      "preco": 3999.00,
+      "status": "Novo"
+    },
+    {
+      "id": 30,
+      "marca": "Realme",
+      "modelo": "Realme C67",
+      "armazenamento": "256GB",
+      "memoria_ram": "8GB",
+      "cor": "Dourado",
+      "preco": 1249.90,
+      "status": "Novo"
     }
   ]
 }
